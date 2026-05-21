@@ -410,22 +410,14 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   cursor: pointer;
 }
 
-/* Soft blurred edges for hotspots */
-.link-hotspot,
+/* Soft edges for link hotspots */
 .link-hotspot,
 .link-hotspot-icon {
   border-radius: 50%;
-  --blur-color: #ffffff;
-  -webkit-filter: drop-shadow(0 0 6px var(--blur-color));
-  filter: drop-shadow(0 0 6px var(--blur-color));
-  box-shadow: 0 0 10px var(--blur-color);
-  transition: box-shadow 0.18s ease, filter 0.18s ease;
 }
 .no-touch .link-hotspot:hover,
 .no-touch .link-hotspot:hover .link-hotspot-icon {
-  -webkit-filter: drop-shadow(0 0 10px var(--blur-color));
-  filter: drop-shadow(0 0 10px var(--blur-color));
-  box-shadow: 0 0 16px var(--blur-color);
+  /* no shadow effect on link hotspots */
 }
 
 .link-hotspot-tooltip {
