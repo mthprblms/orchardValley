@@ -82,6 +82,11 @@ a, a:hover, a:active, a:visited {
   animation: logoAnimation 1s ease-in-out forwards;
 }
 
+.mobile .logo {
+  width: 30vw !important;
+  max-width: 30vw !important;
+}
+
 #pano {
   position: absolute;
   top: 0;
