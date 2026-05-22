@@ -1,104 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-643",
-      "name": "643",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": -1.5289562598506947,
-        "pitch": 0.02723738823679156,
-        "fov": 1.4043814015595122
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.6877917429822418,
-          "pitch": 0.47120718783505566,
-          "rotation": 6.283185307179586,
-          "target": "1-586"
-        },
-        {
-          "yaw": 1.4105728200927778,
-          "pitch": 0.1835628698699736,
-          "rotation": 0,
-          "target": "2-644"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.9942274016850288,
-          "pitch": 0.18200831539383344,
-          "title": "Resident Garden",
-          "text": '<div><iframe src="https://www.youtube.com/embed/PwyxnFHfpJA?si=xa1s4iKy7RwqNSqK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>'
-        }
-      ]
-    },
-    {
-      "id": "1-586",
-      "name": "586",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": -2.9832363857102457,
-        "pitch": 0.1671096340459446,
-        "fov": 1.3635740115987254
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.004027682889217843,
-          "pitch": 0.2119473243823755,
-          "rotation": 0,
-          "target": "0-643"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 2.9265053197748987,
-          "pitch": 0.34059684467181484,
-          "title": "Newly Upgraded Rooms",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "2-644",
-      "name": "644",
+      "id": "0-courtyard",
+      "name": "Courtyard",
       "levels": [
         {
           "tileSize": 256,
@@ -126,16 +30,286 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.6176633541058072,
-          "pitch": 0.08366451968269217,
+          "yaw": 1.4048772505256952,
+          "pitch": 0.19171822605090583,
           "rotation": 0,
-          "target": "0-643"
+          "target": "2-activities"
         },
         {
-          "yaw": -3.1248636541075303,
-          "pitch": 0.23748449729602505,
+          "yaw": -1.663086433314481,
+          "pitch": 0.028175334723730572,
           "rotation": 0,
-          "target": "2-644"
+          "target": "5-room"
+        },
+        {
+          "yaw": -0.9870657852487348,
+          "pitch": -0.0018015596766698394,
+          "rotation": 0,
+          "target": "6-therapy"
+        },
+        {
+          "yaw": -2.8158736010819663,
+          "pitch": 0.017732067202727464,
+          "rotation": 0,
+          "target": "5-room"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-entrance",
+      "name": "Entrance",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.7918734455333025,
+          "pitch": 0.05827304966106439,
+          "rotation": 0,
+          "target": "0-courtyard"
+        },
+        {
+          "yaw": 0.9290075988994957,
+          "pitch": 0.009060715405727393,
+          "rotation": 0,
+          "target": "3-dining"
+        },
+        {
+          "yaw": 0.6231075966792687,
+          "pitch": 0.0024402231261841933,
+          "rotation": 0,
+          "target": "4-kitchen"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-activities",
+      "name": "Activities",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.8642796896037659,
+          "pitch": 0.06041828086764944,
+          "rotation": 0,
+          "target": "1-entrance"
+        },
+        {
+          "yaw": -2.147413557555888,
+          "pitch": 0.1021505326731198,
+          "rotation": 0,
+          "target": "0-courtyard"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-dining",
+      "name": "Dining",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.8826410820148212,
+          "pitch": 0.03368653556642087,
+          "rotation": 0,
+          "target": "5-room"
+        },
+        {
+          "yaw": 0.1908552402106114,
+          "pitch": 0.04732807723589971,
+          "rotation": 0,
+          "target": "4-kitchen"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-kitchen",
+      "name": "Kitchen",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.61994550804069,
+          "pitch": 0.06714393531268925,
+          "rotation": 0,
+          "target": "3-dining"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-room",
+      "name": "Room",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.9841920382755873,
+          "pitch": 0.16715426676684686,
+          "rotation": 0,
+          "target": "6-therapy"
+        },
+        {
+          "yaw": 2.395926737532628,
+          "pitch": 0.06918200264115804,
+          "rotation": 0,
+          "target": "0-courtyard"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-therapy",
+      "name": "Therapy",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.245108498097597,
+          "pitch": 0.06305591426846391,
+          "rotation": 0,
+          "target": "5-room"
         }
       ],
       "infoHotspots": []
@@ -144,7 +318,7 @@ var APP_DATA = {
   "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": false,
+    "autorotateEnabled": true,
     "fullscreenButton": true,
     "viewControlButtons": true
   }
