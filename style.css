@@ -86,7 +86,7 @@ a, a:hover, a:active, a:visited {
     transform: translate(-50%, -50%) rotate(-20deg) scale(0.8);
   }
   50% {
-    opacity: 1;
+    opacity: 2;
   }
   100% {
     opacity: 1;
