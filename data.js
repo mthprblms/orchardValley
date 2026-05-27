@@ -218,7 +218,7 @@ var APP_DATA = {
           "yaw": 2.310566658905808,
           "pitch": -0.019815043585523995,
           "title": "Welcome to Orchard Valley",
-          "text": "Text"
+          "text": "Orchard Valley Health and Rehabilitation is a skilled nursing facility located along Asheville Highway in Hendersonville, North Carolina. Its strategic location provides quick access to three prominent hospitals: Pardee, Advent, and Mission Hospital. This proximity helps to ensure that residents receive timely and comprehensive medical care, enhancing their overall health outcomes. Orchard Valley is designed to provide a continuum of care, making it an ideal choice for those seeking a seamless transition from hospital to home-like rehabilitation environment."
         }
       ]
     },
