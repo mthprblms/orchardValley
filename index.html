@@ -52,6 +52,22 @@ body {
 	overflow: hidden;
 }
 
+.logo {
+	background: white;
+	padding: 10px;
+}
+
+@media screen and (min-width: 600px) {
+.title {
+	font-size: 80px !important;
+}
+.logo {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    mix-blend-mode: multiply;
+}
+}
 .main {
 	position: absolute;
 	height: 100%;
@@ -70,7 +86,7 @@ body {
 
 .title {
 		font-family: 'Poiret One', cursive;
-	font-size: 4rem;
+	font-size: 9vw;
   margin-bottom: .5rem;
 	width: 100%;
 }
@@ -154,8 +170,8 @@ body {
 <main class="main">
 	<section class="contact">
 		<h1 class="title">Building Something Cool</h1>
-        <h1 class="title">Orchard Valley Health & Rehabilitation</h1>
 		<h2 class="sub-title">Virtual Tour Under Construction</h2>
+        <img src="img/orchard-valley-logo.svg" alt="Under Construction" class="logo">
 	</section>
 </main>
 
