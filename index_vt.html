@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Orchard Valley Virtual Tour</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+<!-- Primary Meta Tags -->
+<meta name="title" content="Orchard Valley Virtual Tour">
+<meta name="description" content="Take a virtual tour of Orchard Valley - explore our facilities, patient rooms, dining areas, and more.">
+
+<!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mthprblms.github.io/orchardValley/">
+<meta property="og:title" content="Orchard Valley Virtual Tour">
+<meta property="og:description" content="Take a virtual tour of Orchard Valley - explore our facilities, patient rooms, dining areas, and more.">
+<meta property="og:image" content="https://mthprblms.github.io/orchardValley/img/virtualTour.jpg">
+
+<!-- Twitter / X -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://mthprblms.github.io/orchardValley/">
+<meta property="twitter:title" content="Orchard Valley Virtual Tour">
+<meta property="twitter:description" content="Take a virtual tour of Orchard Valley - explore our facilities, patient rooms, dining areas, and more.">
+<meta property="twitter:image" content="https://mthprblms.github.io/orchardValley/img/virtualTour.jpg">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-activities">
+        <li class="text">Activities</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-courtyard">
+        <li class="text">Courtyard</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-dining">
+        <li class="text">Dining</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-entrance">
+        <li class="text">Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-kitchen">
+        <li class="text">Kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-nurse-station">
+        <li class="text">Nurse Station</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-patient-room-double">
+        <li class="text">Patient Room Double</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-patient-room-single">
+        <li class="text">Patient Room Single</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-reception">
+        <li class="text">Reception</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-therapy">
+        <li class="text">Therapy</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/MaTH.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
