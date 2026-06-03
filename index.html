@@ -53,8 +53,19 @@ body {
 }
 
 .logo {
-	background: white;
+	/* background: white; */
 	padding: 10px;
+    height: auto;
+    margin-top: 20px;
+    mix-blend-mode: hard-light;
+}
+.MTHlogo {
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+	/* width: 5vw; */
+	height: auto;
+	opacity: 0.8;
 }
 
 @media screen and (min-width: 600px) {
@@ -62,10 +73,20 @@ body {
 	font-size: 80px !important;
 }
 .logo {
-    width: 300px;
+    width: 360px;
     height: auto;
     margin-top: 20px;
-    mix-blend-mode: multiply;
+    mix-blend-mode: hard-light;
+}
+
+.MTHlogo {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    width: 10vw;
+    min-width:200px;
+    height: auto;
+    opacity: 0.8;
 }
 }
 .main {
@@ -89,10 +110,11 @@ body {
 	font-size: 9vw;
   margin-bottom: .5rem;
 	width: 100%;
+    border-bottom: .1rem solid #fff;
 }
 
 .sub-title {
-  border-top: .1rem solid #fff;
+  
   padding: 1rem 4rem;
 	text-align: center;
 }
@@ -174,7 +196,7 @@ body {
         <img src="img/orchard-valley-logo.svg" alt="Under Construction" class="logo">
 	</section>
 </main>
-
+<img src="img/et.png" alt="MaTH Logo" class="MTHlogo">
 
 </body>
 </html>
